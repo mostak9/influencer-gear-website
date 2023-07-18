@@ -165,6 +165,7 @@ nav>ul li:hover {
     align-items: center;
     gap: 95px;
 }
+
 .feature-title {
     color: #0A0826;
     font-size: 2.375rem;
@@ -172,6 +173,7 @@ nav>ul li:hover {
     line-height: 60px;
     margin-bottom: 20px;
 }
+
 .feature-content {
     color: #6C6C6C;
     font-size: 1rem;
@@ -180,7 +182,34 @@ nav>ul li:hover {
     margin-bottom: 20px;
 }
 
+/* footer section styles */
 
+footer {
+    width: 100%;
+    height: 239px;
+    background-color: #0A0826;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-content h2 {
+    color: #fff;
+}
+
+.copyright {
+    color: #D9DBE1;
+    font-size: 0.875rem;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer-content > p i {
+    margin-right: 10px;
+    margin-top: 15px;
+}
 
 @media screen and (max-width: 576px) {
     .primary-margin {
@@ -213,13 +242,16 @@ nav>ul li:hover {
     .product-card-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .feature-container {
         flex-direction: column-reverse;
         gap: 50px;
     }
+
     .feature-img img {
-    width: 100%;
+        width: 100%;
     }
+
     .feature-content {
         text-align: center;
     }
@@ -251,13 +283,16 @@ nav>ul li:hover {
     .product-card-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .feature-container {
         flex-direction: column-reverse;
         gap: 50px;
     }
+
     .feature-img img {
-    width: 100%;
+        width: 100%;
     }
+
     .feature-content {
         text-align: center;
     }
